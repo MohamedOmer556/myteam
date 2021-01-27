@@ -1,0 +1,33 @@
+$primary-color: #FFFFFF;
+$h1-color: #79C8C7;
+$h2-color: #F67E7E;
+$btn-color: #004047;
+$hero-bg: #014E56;
+$seconed-bg: #012F34;
+$third-bg: #F67E7E;
+$fourth-bg:#004047;
+$footer-bg: #002529;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;  
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Livvic', sans-serif;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h2{
+    font-weight: 600;
+    font-size: 4rem;
+}
+body.hide{
+    overflow: hidden;
+}

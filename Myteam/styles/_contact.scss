@@ -1,0 +1,102 @@
+.contact{
+    display: flex;
+    align-items: center;
+    min-height: 62vh;
+    justify-content: space-between;
+    padding: 0 11%;
+    background: $hero-bg;
+    position: relative;
+    overflow: hidden;
+}
+.contact-top{
+    position: absolute;
+    top: 0;
+    left: -4.3%;
+    width: 12rem;
+}
+.contact-bottom{
+    position: absolute;
+    bottom: 0;
+    right: -4.3%;
+    width: 12rem;
+}
+.contact-content{
+    margin: 3rem 0 6rem 0;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 6rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: white;
+    }
+    h3{
+        color: $third-bg;
+        font-size: 3.4rem;
+        margin-bottom: 2rem;
+    }
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    img{
+        margin-bottom: 1.5rem;
+    }
+    p{
+        color: white;
+        margin-left: 1rem;
+    }
+}
+.contact-form{
+    margin-top: 5.5rem;
+    width: 50%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 45vh;
+    input{
+        font-size: 1.3rem;
+        color: $h1-color;
+        font-weight: 600;
+        height: 4.2rem;
+        width: 100%;
+        padding: 0 2rem;
+        background: #2C6269;
+        border: none;
+        border-bottom: 3px solid $h1-color;
+        transition: 0.3s all ease;
+        margin: 1rem 0;
+
+        &:nth-child(1):focus{
+            border-bottom: 3px solid #ff7730;
+        }
+        &:nth-child(2):focus{
+            border-bottom: 3px solid #7ed56f;
+        }
+        &:nth-child(3):focus{
+            border-bottom: 3px solid #ff7730;
+        }
+        &:nth-child(4):focus{
+            border-bottom: 3px solid #7ed56f;
+        }
+    }
+}
+#message{
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: rgba($color: $h1-color, $alpha: 0.6) ;
+    font-weight: 600;
+    height: 13rem;
+    width: 100%;
+    padding: 1.5rem 2rem 0 2rem;
+    background: #2C6269;
+    border: none;
+    border-bottom: 3px solid $h1-color;
+    transition: 0.3s all ease;
+    margin: 1rem 0;
+
+    &:focus{
+        border-bottom: 3px solid #F67E7E;
+    }
+}
