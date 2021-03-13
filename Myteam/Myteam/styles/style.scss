@@ -1,0 +1,1255 @@
+@import 'main';
+@import 'home';
+@import 'about';
+@import 'contact';
+
+
+@media screen and (max-width:2000px){
+    .hero{
+        min-height: 55vh;
+        padding-top: 5rem;
+        h2{
+            font-size: 9rem;
+           padding-right: 20rem;
+        }
+        p{
+            font-size: 2.2rem;
+        }
+        p::before{
+            content: '';
+            padding: 0.2rem 3rem;
+            background: $h1-color;
+            position: absolute;
+            top: -100%;
+            left: 7%;
+        }
+    }
+    .pt-hero-top{
+        position: absolute;
+        top: 15%;
+        left: -6%;
+        transform:translateX(6%);
+    }
+    /* build */
+    .build-manage{
+        padding: 10% 10% 6% 10%;
+    }
+    
+    .build-text{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.7rem;
+        }
+    } 
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -6%;
+    }
+    /* testimonials */
+    .test{
+        padding: 0 2rem;
+        
+        p{
+            font-size: 1.6rem;
+            opacity: 100%;
+        }
+        h1{
+            font-size: 1.9rem;
+        }
+        h3{
+            opacity: 100%;
+            font-size: 1.4rem;
+        }
+    }
+    .person{
+        width: 7.5rem;
+    }
+
+    /* about */
+    .about p{
+        font-size: 1.9rem;
+    }
+
+    /* directors */
+    .card{
+        width: 40rem;
+    height: 28rem;
+    }
+    .front{
+        h1{
+            margin: 0.5rem 0;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        img{
+            width: 8rem;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+    }
+    .back{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.7rem;
+        }
+        img{
+            width: 3rem;
+            margin: 0 1rem;
+        }
+    }
+    .btn-cross{
+        i{
+            font-size: 5.5rem;
+        }
+    }
+
+    /* contact */
+    .contact-top{
+        position: absolute;
+        top: 0;
+        left: -4.1%;
+        width: 15rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -4.1%;
+        width: 15rem;
+    }
+    .contact-content{
+        h2{
+            font-size: 6.5rem;
+            font-weight: 700;
+            margin-bottom: 3.5rem;
+            color: white;
+        }
+        h3{
+            color: $third-bg;
+            font-size: 4rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .contact-box{
+        p{
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+    }
+    .contact-form{
+        input{
+            height: 5rem;
+            font-size: 1.6rem;
+        }
+    }
+    #message{
+        font-size: 1.8rem;
+        height: 15rem;
+    }
+}
+@media screen and (max-width:1863px){
+    .pt-hero-top{
+        position: absolute;
+        top: 20%;
+        left: -7%;
+        transform:translateX(7%);
+    }
+}
+@media screen and (max-width:1821px){
+    .hero{
+        min-height: 50vh;
+        padding-top: 5rem;
+        h2{
+            font-size: 9rem;
+           padding-right: 15rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+        p::before{
+            content: '';
+            padding: 0.2rem 3rem;
+            background: $h1-color;
+            position: absolute;
+            top: -70%;
+            left: 7%;
+        }
+    }
+}
+@media screen and (max-width:1702px){
+    .hero{
+        
+        padding-top: 0rem;
+        h2{
+            font-size: 8rem;
+           padding-right: 10rem;
+        }
+    }
+    .pt-hero-top{
+        position: absolute;
+        top: 10%;
+        left: -8%;
+        transform:translateX(8%);
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -7%;
+    }
+    /* contact */
+    .contact-top{
+        position: absolute;
+        top: 0;
+        left: -4.1%;
+        width: 13rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -4.1%;
+        width: 13rem;
+    }
+}
+@media screen and (max-width:1658px){
+    .about-top{
+        position: absolute;
+        bottom: 0;
+        right: -7%;
+    }
+
+    /* contact */
+    .contact-top{
+        position: absolute;
+        top: 0;
+        left: -5.1%;
+        width: 13rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -5.1%;
+        width: 13rem;
+    }
+}
+@media screen and (max-width:1458px){
+    .hero{    
+        h2{
+           padding-right: 5rem;
+        }
+    }
+    .pt-hero-top{
+        position: absolute;
+        top: 7%;
+        left: -9%;
+        transform:translateX(9%);
+    }
+
+    /* about */
+    .about-top{
+        position: absolute;
+        bottom: 0;
+        right: -8%;
+    }
+    .directors-top{
+        position: absolute;
+        top: 0;
+        left: -8%;
+    
+    }
+}
+@media screen and (max-width:1410px){
+     /* build */
+     .build-manage{
+        padding: 13rem 5%;
+        h2{
+            width: 50%;
+            font-size: 4rem;
+
+            &::before{
+                top: -20%;
+                left: 0;
+            }
+        }
+    }
+    .build-text{
+        h1{
+            font-size: 1.8rem;
+        }
+        p{
+            padding-right: 5rem;
+            font-size: 1.5rem;
+        }
+    }
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -8%;
+    }
+
+    /* directors */
+    .card{
+        width: 35rem;
+    height: 25rem;
+    }
+    .front{
+        h1{
+            margin: 1rem 0;
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1.4rem;
+        }
+        img{
+            width: 6.5rem;
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+        }
+    }
+    .back{
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+        img{
+            width: 2rem;
+            margin: 0 0.5rem;
+        }
+    }
+    .btn-cross{
+        i{
+            font-size: 4.5rem;
+        }
+    }
+}
+@media screen and (max-width:1345px){
+    .hero{    
+        min-height: 40vh;
+        h2{
+           padding-right: 1rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+    .pt-hero-top{
+        position: absolute;
+        top: 10%;
+        left: -10%;
+        transform:translateX(10%);
+    }
+    /* testimonials */
+    .testimonials h2{
+        font-size: 4rem;
+        padding: 0 15rem;
+    }
+    .test{
+        padding: 0 1rem;
+        
+        p{
+            font-size: 1.5rem;    
+        }
+        h1{
+            font-size: 1.7rem;
+        }
+        h3{
+            font-size: 1.3rem;
+        }
+    }
+    .person{
+        width: 6.5rem;
+    }
+}
+@media screen and (max-width:1243px){
+    .btn-1{
+        padding: 1.4rem 2.2rem;
+        border: 2px solid $primary-color;   
+        font-size: 1.4rem;    
+    }
+    .hero{    
+        text-align: center;
+        h2{
+            flex:  2 1 70rem;
+           padding: 0 2rem;
+           margin: 0;
+        }
+        p{
+            flex:  2 1 70rem;
+            font-size: 1.5rem;
+            padding:  0 2rem;
+            margin: 0;
+
+            &::before{
+                content: '';
+                padding: 0.1rem 0rem;
+                width: 80%;
+                background: $h1-color;
+                position: absolute;
+                top: -70%;
+                left: 8.5%;
+            }
+        }
+        .pt-hero-top{
+            position: absolute;
+            top: 0;
+            left: -12%;
+            transform:translateX(12%);
+        }
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -9%;
+    }
+    .build-box{
+        padding: 0 2rem;
+     
+    }
+    .build-manage{
+        h2{
+            font-size: 3.5rem;
+            width: 60%;
+        }
+    }
+    /* banner */
+    .banner{
+        padding:  10rem 8%;
+    }
+
+    /* about */
+    .about-top{
+        position: absolute;
+        bottom: 0;
+        right: -10%;
+    }
+    .directors-top{
+        position: absolute;
+        top: 0;
+        left: -10%;
+    
+    }
+    /* badges */
+    .badges-top{
+        width: 13rem;
+    }
+
+    /* contact */
+    .contact-top{
+        position: absolute;
+        top: 0;
+        left: -6.1%;
+        width: 13rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -6.1%;
+        width: 13rem;
+    }
+    .contact{
+        padding: 0 6%;
+    }
+    .contact-content{
+        h2{
+            font-size: 5rem;           
+            margin-bottom: 2.5rem;
+        }
+        h3{
+            font-size: 3rem;
+            margin-bottom: 2.5rem;
+        }
+    }
+    .contact-box{
+        p{
+            font-size: 1.5rem;
+            margin-left: 1.5rem;
+        }
+    }
+    .contact-form{
+        input{
+            height: 4.2rem;
+            font-size: 1.5rem;
+        }
+    }
+    #message{
+        font-size: 1.5rem;
+        height: 13rem;
+    }
+}
+
+@media screen and (max-width:1191px){
+    .directors-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:1033px){
+    .pt-hero-top{
+        display: none;
+    }
+    .hero{
+        h2{
+            font-size: 6rem;
+        }
+    }
+    .hero-container{
+        width: 90%;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+    }
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 23%;
+        transform: translateX(-23%);
+
+    }
+
+    /* build */
+    .build-manage{
+        align-items: center;
+        flex-direction: column;
+        h2{
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+    }
+    .build-box{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 5rem;
+    }
+    .build-text{
+        margin: 0;
+     
+        p{
+            padding: 0;
+        }
+    }
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -10%;
+    }
+
+    /* testimonials */
+    .testimonials h2{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .test-container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .test{
+        padding: 0 2rem;
+        margin-top: 4rem;
+        
+        p{
+            font-size: 1.7rem;    
+            margin-bottom: 1.3rem;
+        }
+        h1{
+            font-size: 1.7rem;
+            
+        }
+        h3{
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .quotes{
+        position: absolute;
+        top: 0;
+        left: 2%;
+        z-index: -1;
+        width: 5rem;
+    }
+
+    /* footer */
+    footer{
+        flex-wrap: wrap;
+    }
+    .footer-contact{
+    width: 0;
+    flex: 0.5 1 20rem;
+    }
+    .footer-social{
+        width: 0; 
+        flex: 0.1 1 15rem;
+    }
+
+    /* about */
+    .about{
+        h2{
+            font-size: 5rem;
+        }
+        p{
+        font-size: 1.5rem;
+        }
+    }
+
+     /* contact */
+     .contact-form{
+         min-height: 30vh;
+         align-self: auto;
+         padding-top: 0;
+         margin: 0;
+     }
+     .contact-top{
+        position: absolute;
+        top: 0;
+        left: -7.1%;
+        width: 13rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -7.1%;
+        width: 13rem;
+    }
+}
+@media screen and (max-width:969px){
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        transform: translateX(-20%);
+        
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+        bottom: 0%;
+        right: -12%;
+    }
+    /* banner */
+    .banner h2{
+        font-size: 4rem;
+    }
+
+    /* badge */
+    .badges{
+        padding: 10rem 5%;
+    }
+    .badges-imgs{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+        img{
+            margin: 2.5rem 0;
+            width: 18rem;
+        }
+    }
+
+    /* about */
+    .about-top{
+        position: absolute;
+        bottom: -15%;
+        right: -8%;
+        width: 13rem;
+    }
+    .directors-top{
+        position: absolute;
+        top: 0;
+        left: -9%;
+        width: 15rem;
+    }
+
+    /* contact */
+    .contact{
+        flex-direction: column;
+        padding: 0 6%;
+    }
+    .contact-content{
+     padding-bottom: 0;
+     margin: 1rem 0;
+    }
+    .contact-form{
+       align-self: center;
+       margin-bottom: 3rem;
+    }
+     .contact-top{
+        position: absolute;
+        top: 0;
+        left: -8.1%;
+       
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -8.1%;
+       
+    }
+}
+@media screen and (max-width:903px){
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 17%;
+        transform: translateX(-17%);       
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+       top: 0%;
+        right: -13%;
+    }
+     /* about */
+     .about{
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       padding: 7rem 2%;
+       justify-content: space-around;
+        h2{
+            margin-bottom: 2rem;
+        }
+        p{
+            width: 100%;
+            margin-top: 2rem;
+            &::before{
+                padding: 0.1rem 0rem;
+                width: 90%;
+                left: 5%;
+                top: -50%;
+               }
+        }
+}
+/* directors */
+.directors-container{
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+}
+}
+
+@media screen and (max-width:836px){
+     /* about */
+     .about-top{
+        right: -9%;   
+    }
+    .directors-top{
+        left: -10%;
+    }
+
+     /* contact */
+     .contact-form{
+         width: 70%;
+     }
+     .contact-top{
+        position: absolute;
+        top: 0;
+        left: -9.1%;
+        width: 13rem;
+    }
+    .contact-bottom{
+        position: absolute;
+        bottom: 0;
+        right: -9.1%;
+        width: 13rem;
+    }
+}
+@media screen and (max-width:750px){
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 15%;
+        transform: translateX(-15%);       
+    }
+    nav{
+        width: 85%;
+    }
+    .logo-container ul a{
+        font-size: 1.6rem;
+    }
+    .hero p{
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+    .contact-btn{
+        padding: 1.3rem 2rem;
+
+        font-size: 1.4rem;
+       
+    }
+     /* build */
+     .home-3{
+        position: absolute;
+       top: 0%;
+        right: -16%;
+    }
+    /* banner */
+    .banner{
+        padding: 10rem 3%;
+        flex-direction: column;
+        text-align: center;
+        h2{
+            margin-bottom: 5rem;
+        }
+    }
+    .btn-2{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+     /* footer */
+     footer{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icons{
+        width: 100%;
+    }
+    .footer-contact{
+    flex:   1 1 40rem;
+    margin: 3rem 0;
+    flex-direction: column;
+    align-items: center;
+    }
+    .footer-social{ 
+        flex: 1 1 40rem;
+
+        i{
+            color:$h1-color;
+        }
+    }
+    .footer-transition ul{
+        margin-top: 2rem;
+    }
+    .footer-nav{
+        color:$third-bg;
+        font-size: 1.8rem;
+    }
+    .footer-nav:last-child{
+    margin-left: 2rem;
+    }
+    .footer-info{
+        margin-top: 2.5rem;
+        p{
+            color: $primary-color;
+    
+            &:not(:last-child){
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+      /* about */
+      .about-top{
+        right: -10%;   
+    }
+    .directors-top{
+        left: -12%;
+    }
+
+    /* badges */
+    .badges-top{
+        top: 100%;
+        transform: translateY(-100%);
+    }
+
+      /* contact */
+      .contact-form{
+        width: 75%;
+    }
+    .contact-top{
+       position: absolute;
+       top: 0;
+       left: -10.1%;
+       width: 13rem;
+   }
+   .contact-bottom{
+       position: absolute;
+       bottom: 0;
+       right: -10.1%;
+       width: 13rem;
+   }
+    
+}
+@media screen and (max-width:680px){
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 15%;
+        transform: translateX(-15%);       
+    }
+    header{
+        min-height: 12vh;
+    }
+    nav{
+        min-height: 12vh;
+    }
+    .hero h2{
+        font-size: 4.5rem;
+    }
+    .hero p{
+        font-size: 1.4rem;
+        padding: 0 0rem;
+    }
+     /* about */
+     .about{
+        padding: 5rem 2%;    
+        h2{
+            font-size: 4rem;
+        } 
+         p{
+             &::before{
+                 top: -35%;
+                }
+         }
+ }
+}
+@media screen and (max-width:656px){
+    .hero p{
+        margin-top: 5rem;
+    }
+    .hero p::before{
+        top: -40%;
+    }
+     /* build */
+     .home-3{
+        position: absolute;
+       top: 0%;
+        right: -18%;
+    }
+
+     /* about */
+     .about-top{
+        right: -11.5%;   
+    }
+    .directors-top{
+        left: -13.5%;
+    }
+     /* contact */
+    .contact-top{
+       position: absolute;
+       top: 0;
+       left: -11.1%;
+       width: 13rem;
+   }
+   .contact-bottom{
+       position: absolute;
+       bottom: 0;
+       right: -11.1%;
+       width: 13rem;
+   }
+}
+@media screen and (max-width:590px){
+    .btn-container{
+        display: none;
+    }
+    .logo-container ul{
+        display: none;
+    }
+    .burger-open{
+        display: block;
+        cursor: pointer;
+    }
+    .burger-close{
+        position: fixed;
+        top: 4.5%;
+        right: 7.5%;
+        z-index: 6;
+        cursor: pointer;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: $fourth-bg;
+        position: fixed;
+        padding: 10rem 0;
+        top: 0;
+        right: 0;
+        z-index: 7;
+        transform: translateX(100%);
+        transition: 0.5s ease all;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin: 4rem 0;
+        }
+    }
+    .burger-home{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    .logo-container img{
+        width: 11rem;
+    }
+    .hero h2{
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-bottom: 1rem;
+    }
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        transform: translateX(-20%);    
+        width: 25rem;   
+    }
+    .hero-container{
+        padding-top: 7rem;
+        padding-bottom: 15rem;
+    }
+    .hero p::before{
+        top: -20%;
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+       top: 0%;
+        right: -20%;
+    }
+    .build-manage h2{
+        font-size: 3.3rem;
+    }
+    /* testimonials */
+    .testimonials h2{
+        font-size: 3rem;
+    }
+    .test{
+        padding: 0;
+        p{
+            line-height: 2.5rem;
+            font-size: 1.5rem;
+        }
+    }
+
+     /* badge */
+     .badges{
+        padding: 5rem 2%;
+        h2{
+            font-size: 3.5rem;
+            padding: 0 2rem;
+        }
+    }
+    .badges-imgs{
+        img{
+            margin: 2.5rem 0;
+            width: 13rem;
+        }
+    }
+     /* contact */
+     .contact-form{
+        width: 100%;
+    }
+    .contact-top{
+       display: none;
+   }
+   .contact-bottom{
+       position: absolute;
+       top: 0;
+       right: -8%;
+       width: 10rem;
+   }
+}
+
+@media screen and (max-width:529px){
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 18%;
+        transform: translateX(-18%);     
+    }
+
+    /* about */
+    .about-top{
+        right: -13%;   
+    }
+    .directors-top{
+        left: -15%;
+    }
+}
+@media screen and (max-width:464px){
+    .hero h2{
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
+    }
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 14%;
+        transform: translateX(-14%);     
+    }
+    /* build */
+    .build-manage{
+        overflow: hidden;
+        h2{
+            font-size: 2.9rem;
+            margin-top: 4rem;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .home-3{
+        position: absolute;
+       top: -4%;
+        right: -25%;
+    }
+  /* directors */
+  .directors{
+      padding: 10rem 2rem;
+  }
+  .directors-container{
+      column-gap: 0rem;
+      width: 100%;
+  }
+  .directors{
+    h2{
+        font-size: 4rem;
+        color: white;
+        margin-bottom: 4rem;
+    }
+}
+    .card{
+        width: 100%;
+        height: 25rem;
+    }
+
+    /* about */
+    .about-top{
+        right: -17%;   
+    }
+    .directors-top{
+        top: -1%;
+        left: -15%;
+        width: 12rem;
+    }
+
+    .directors-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10rem;
+    }
+
+    /* badges */
+    .badges-top{
+       width: 10rem;
+       left: -4%;
+    }
+
+    /* contact */
+    .contact{
+        padding: 3rem 5%;
+    }
+    .contact-top{
+       position: absolute;
+       top: 0;
+       left: -14.1%;
+       width: 11rem;
+   }
+}
+@media screen and (max-width:402px){
+    /* build */
+    .home-3{
+        position: absolute;
+        right: -25%;
+        width: 17rem;
+    }
+}
+@media screen and (max-width:392px){
+    .hero h2{
+        font-size: 3.5rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
+    }
+    .pt-hero-bottom{
+        position: absolute;
+        bottom: 0;
+        right: 7%;
+        transform: translateX(-7%);     
+    }
+    /* build */
+    .home-3{
+        position: absolute;
+        right: -26%;
+    }
+    /* about */
+    .about{
+        padding: 2rem 2%;    
+         p{
+             text-shadow: 0 2px 2px black;
+             &::before{
+                 top: -10%;
+                }
+         }
+ }
+ /* about */
+ .about-top{
+    right: -18.5%;   
+}
+.directors-top{
+    left: -18%;
+}
+
+/* badges */
+.badges-top{
+    width: 10rem;
+    left: -6%;
+ }
+ /* contact */
+ .contact-bottom{
+    position: absolute;
+    top: 3%;
+    right: -11%;
+    width: 9rem;
+}
+}
+@media screen and (max-width:345px){
+    .directors{
+        padding: 10rem 0.5rem;
+        h2{
+            padding-left: 1rem;
+        }
+    }
+    .card{
+        width: 95%;
+        height: 22rem;
+    }
+    .back{
+        padding: 2rem 0;
+    }
+    .btn-cross{
+        bottom: -10%;
+    }
+    /* about */
+ .about-top{
+    right: -20%;   
+}
+.directors-top{
+    left: -19.5%;
+}
+
+/* badges */
+.badges-top{
+    width: 10rem;
+    left: -7%;
+ }
+
+ /* contact */
+ .contact-top{
+    position: absolute;
+    top: 0;
+    left: -16.5%;
+    width: 10rem;
+}
+}
